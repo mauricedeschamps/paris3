@@ -1,9 +1,13 @@
 const CACHE_NAME = 'paris-guide-v1';
 const urlsToCache = [
-  './',
-  './index.html',  // 実際のHTMLファイル名に合わせてください（例: index.html）
-  './manifest.json',
+  '/',
+  'index.html',  // 実際のHTMLファイル名に合わせてください（例: index.html）
+  'manifest.json',
   'https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap',
+
+'icons/icon-192.png',
+'icons/icon-512.png'
+
   // 必要に応じて外部画像やAPIなども追加可能
 ];
 
